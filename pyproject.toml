@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fhiro"
+version = "0.1.0"
+description = ""
+authors = ["Claudio Caletti <claudio@buildo.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.10.7"
+numpy = "^1.21.5"
+requests = "^2.26.0"
+seaborn = "^0.11.2"
+bokeh = "2.4.3"
+mypy = "^0.982"
+flask = "^2.3.2"
+python-docx = "^0.8.11"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.270"
+tiktoken = "^0.4.0"
+pymupdf = "^1.23.2"
